@@ -1,0 +1,22 @@
+body {
+    background-color: #242e3c;
+    color: #f0f0f0;
+    margin: 0;
+    height: 100%;
+}
+
+#main_viewport {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+#debug {
+    position: absolute;
+    display: flex;
+}
+
+#debug div {
+    padding: 1em;
+}
